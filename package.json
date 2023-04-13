@@ -20,6 +20,8 @@
   "homepage": "https://github.com/w3k5/lukomorie-web#readme",
   "devDependencies": {
     "@types/node": "^18.15.11",
+    "@types/react": "^18.0.35",
+    "@types/react-dom": "^18.0.11",
     "@types/webpack": "^5.28.1",
     "html-webpack-plugin": "^5.5.0",
     "ts-loader": "^9.4.2",
@@ -28,5 +30,9 @@
     "webpack": "^5.79.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
