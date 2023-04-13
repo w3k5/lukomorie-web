@@ -1,0 +1,29 @@
+{
+  "name": "lukomorie-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3k5/lukomorie-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w3k5/lukomorie-web/issues"
+  },
+  "homepage": "https://github.com/w3k5/lukomorie-web#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/webpack": "^5.28.1",
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
