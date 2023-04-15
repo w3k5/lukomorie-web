@@ -13,7 +13,6 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-//    "@typescript-eslint/no-explicit-any": "warn",
     "no-var": "error",
     "no-prototype-builtins": "off",
     "no-use-before-define": "off",
@@ -65,5 +64,12 @@
     "react": {
       "version": "detect"
     }
-  }
+  },
+  "overrides": [{
+    "files": ["./config/**/*.ts"],
+    "rules": {
+      "import/no-extraneous-dependencies": "off",
+      "@typescript-eslint/no-var-requires": "off"
+    }
+  }]
 }
