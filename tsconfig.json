@@ -10,7 +10,10 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
-    "lib": ["ESNext"]
+    "lib": [
+      "ESNext",
+      "dom"
+    ]
   },
   "ts-node": {
     "compilerOptions": {
