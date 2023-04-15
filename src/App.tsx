@@ -1,4 +1,4 @@
-import './index.scss';
+import './styles/index.scss';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {DashboardRootLazyPage} from "./pages/dashboard/lazy";
 import {AuthRootLazyPage} from "./pages/auth/lazy";
