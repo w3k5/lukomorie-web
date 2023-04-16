@@ -13,7 +13,7 @@ import {
 
 const AuthRootPage = () => {
     return (
-        <Flex minH={'100vh'} align={'center'} justify={'center'}>
+        <Flex align={'center'} justify={'center'} flexDir="column" flex={1}>
             <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
                 <Stack align={'center'}>
                     <Heading fontSize={'4xl'}>Войдите в ваш аккаунт</Heading>
